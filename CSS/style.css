@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(244, 113, 113); */
+}
+
+.myNav {
+    position: fixed;
+    width: 100%;
+    background-color: azure;
+    height: 60px;
+    line-height: 30px;
+}
+
+.myNav ul {
+    list-style: none;
+    /* padding-left: 80px; */
+}
+
+.myNav ul li {
+    display: inline;
+    padding-left: 80px;
+    font-size: larger;
+}
+
+#logo {
+    font-size: x-large;
+    float: inline-end;
+    padding-right: 80px;
+}
+
+#logo a {
+    font-weight: 600;
+}
+
+#logo a span {
+    color: red;
+}
+
+
+.myNav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+
+#landingPage img {
+    padding: 60px 0 0 0;
+    border: 0;
+}
+
+/* about section */
+
+#aboutGmc {
+    padding-top: 70px;
+}
+
+#aboutGmc header h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#aboutGmc p {
+    padding: 0 30px;
+    font-size: larger;
+}
+
+#aboutGmc p span {
+    color: rgb(25, 174, 174);
+    font-weight: 900;
+}
+
+/* work section */
+
+#gmcWork {
+    background-color: blanchedalmond;
+    padding: 120px 0;
+}
+
+#gmcWork h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.gmcWorksub {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 100px 100px 100px;
+}
+
+.gmcWorksub div {
+    margin: auto;
+    background-color: azure;
+    display: inline-block;
+    padding: 60px 15px;
+    border-radius: 10px;
+}
+
+.gmcWorksub div h3 {
+    font-size: 28px;
+}
+
+.gmcWorksub div p {
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+#gmcWork button {
+    display: block;
+    width: 30%;
+    margin: auto;
+    padding: 10px 0;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#gmcWork button a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+/* resume section */
+
+#gmcResume {
+    padding: 200px 40px 200px 60px;
+
+}
+
+.resume {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.resumeText {
+    padding: 80px 80px 0 0;
+}
+
+.resumeText h1 {
+    font-size: 40px;
+}
+
+.resumeText p {
+    font-size: 20px;
+}
+
+.resumeImg img {
+    border: 5px solid red;
+    border-radius: 50%;
+}
+
+
+
+
+/* contact section */
+
+#gmcContact  {
+    padding: 70px 0 30px 0;
+}
+
+
+#gmcContact form {
+    margin: 0 300px;
+}
+
+#gmcContact h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#gmcContact > label, input, textarea {
+    display: block;
+}
+
+#gmcContact label {
+    font-size: larger;
+}
+
+#gmcContact input {
+    background-color: aliceblue;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    font-size: large;
+    padding: 5px 10px;
+    margin: 5px 0 20px 0;
+}
+
+#gmcContact textarea {
+    background-color: aliceblue;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    font-size: large;
+    padding: 5px 10px;
+    margin: 5px 0 20px 0;
+}
+
+.btn {
+    width: 25%;
+    padding: 10px 0;
+    font-size: large;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+/* footer */
+
+footer {
+    background-color: azure;
+    position: sticky;
+    bottom: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 120px;
+}
+
+.footer div li {
+    list-style: none;
+    padding-top: 30px;
+}
+
+.footer div li a {
+    text-decoration: none;
+}
+
+
+
+
+
+
