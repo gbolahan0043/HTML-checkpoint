@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    /* background-color: rgb(244, 113, 113); */
+    font-family:'Roboto';
 }
 
 .myNav {
@@ -14,7 +14,6 @@ body {
 
 .myNav ul {
     list-style: none;
-    /* padding-left: 80px; */
 }
 
 .myNav ul li {
@@ -41,7 +40,7 @@ body {
 .myNav ul li a {
     text-decoration: none;
     color: black;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Roboto';
     font-weight: 400;
 }
 
